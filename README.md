@@ -83,6 +83,17 @@ Part B: installing XRDP with sound to work:
 >  #sudo reboot
 > 
 
+https://c-nergy.be/blog/?p=19951
+--help or -h          => will display a basic help menu
+--sound or -s         => will enable sound redirection 
+--loginscreen or -l   => will customize the xRDP login screen 
+--remove or -r        => will remove the xrdp package 
+--custom or -c        => will perform a custom installation (i.e. compiled from sources)
+--dev or -d           => will perform a custom installation using dev branch (unstable version)
+--unsupported or -u   => will bypass the Check os and will run against unsupported os (use it at your own risk!!)
+--perm or -p          => fix permissions on xrdp files (uncommon situation)
+
+
 2.	create a new user if you don't already have one (as root):
 >  #adduser admin
 >  #usermod -aG sudo admin
